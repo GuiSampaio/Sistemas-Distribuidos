@@ -20,8 +20,8 @@ def envia():
 s = socket ()
 
 
-servidor="192.168.0.112"
-porta=8752
+servidor="#"
+porta=#
 
 s.connect((servidor, porta))
 t1 = threading.Thread(target=envia, args=())
