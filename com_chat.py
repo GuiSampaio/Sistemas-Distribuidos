@@ -60,8 +60,8 @@ def atende (conn, cliente, ident):
 
 s = socket ()
 
-host = "192.168.0.112"
-porta = 8752
+host = "#"
+porta = #
 s.bind ((host, porta))
 s.listen (10)
 nthr = 0
